@@ -1,15 +1,15 @@
 # entrada
-a = int(input("Introduzca el primer número: "))
-b = int(input("Introduzca el segundo número: "))
+num1 = int(input("Introduzca el primer número: "))
+num2 = int(input("Introduzca el segundo número: "))
 
 # procesamiento (producto)
-c = 0
+result = 0
 # iterador
 sums_done = 1
 
-while sums_done <= b:
-    c += a
+while sums_done <= num2:
+    result += num1
     sums_done += 1
     
 # salida
-print("Su resultado es:", c)
+print("Su resultado es:", result)

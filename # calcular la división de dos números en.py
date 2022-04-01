@@ -2,19 +2,19 @@
 # dados por el usuario y el resto
 
 # entrada
-a = int(input("Introduzca el dividendo: "))
-b = int(input("Introduzca el divisor: "))
+dividend = int(input("Introduzca el dividendo: "))
+divider = int(input("Introduzca el divisor: "))
 
 # procesamiento (producto)
 # iterador
-cociente = 0
+quotient = 0
 
-resto = a
+rest = dividend
 
-while resto > 0:
-    cociente += 1
-    resto -= b
+while rest > 0:
+    quotient += 1
+    rest -= divider
     
 # salida
-print("El cociente es:", cociente)
-print("El resto es: ", b - resto)
+print("El cociente es:", quotient)
+print("El resto es: ", divider - rest)
