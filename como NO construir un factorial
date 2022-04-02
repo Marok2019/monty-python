@@ -1,10 +1,10 @@
-¿Cómo construir un factorial?
+# ¿Cómo construir un factorial? (excepto que esto no sirve jajalol)
 
 # entrada
 a = int(input("Introduzca un factorial"))
 
 # proceso
-fact! = 1
+fact = 1
 
 # iterador
 i = a
@@ -13,4 +13,4 @@ while i != 1:
 	a * i
 	i -= i - 1	
 # salida
-print("El factorial de", a, "es:", fact!)
+print("El factorial de", a, "es:", fact)
