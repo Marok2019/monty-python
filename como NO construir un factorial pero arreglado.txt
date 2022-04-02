@@ -1,0 +1,15 @@
+# ¿Cómo construir un factorial?
+
+# entrada
+num1 = int(input("Introduzca un factorial: "))
+
+# proceso
+fact = num1
+i = num1
+
+while i > 1:
+	i -= 1
+	fact *= i
+
+# salida
+print("El factorial de", num1, "es:", fact)
