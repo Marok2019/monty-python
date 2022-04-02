@@ -1,7 +1,7 @@
 # ¿Cómo construir un factorial?
 
 # entrada
-num1 = int(input("Introduzca un factorial: "))
+num1 = int(input("Introduzca un número: "))
 
 # proceso
 fact = num1
