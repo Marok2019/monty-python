@@ -5,7 +5,7 @@ residuo = dividendo % divisor
 cociente = dividendo / divisor
 
 # Proceso
-module = dividendo%divisor
+module = dividendo % divisor
 
 # Salida
 if residuo != 0:

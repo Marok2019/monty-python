@@ -4,7 +4,6 @@ num2 = int(input("Introduzca el segundo número: "))
 
 # procesamiento (producto)
 result = 0
-# iterador
 sums_done = 1
 
 while sums_done <= num2:
