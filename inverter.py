@@ -11,7 +11,7 @@ while x > 0:
     inv *= 10
     inv += d
     x //= 10
-    digits += 1
+    digits += 1 # contador dígitos
 
 # salida
 print("El número invertido es: ", inv)
