@@ -1,3 +1,6 @@
+from os import system
+system("cls")
+
 # Entradas
 decimal = float(input("Introduzca un número: "))
 

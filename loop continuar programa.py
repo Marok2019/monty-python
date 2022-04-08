@@ -1,3 +1,6 @@
+from os import system
+system("cls")
+
 # entrada
 ans = str(input("¿Desea continuar con el programa?: "))
 

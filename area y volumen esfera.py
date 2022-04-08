@@ -1,3 +1,6 @@
+from os import system
+system("cls")
+
 # Entradas
 PI = 3.14
 sph_ratio = float(input("Radio de la esfera: "))

@@ -1,3 +1,6 @@
+from os import system
+system("cls")
+
 # entrada
 org = int(input("Introduzca un número: "))
 

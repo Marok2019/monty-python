@@ -1,3 +1,6 @@
+from os import system
+system("cls")
+
 # Entradas
 dividendo = int(input("Introduzca su dividendo: "))
 divisor = int(input("Introduzca su divisor: "))

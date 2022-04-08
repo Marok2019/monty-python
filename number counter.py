@@ -1,3 +1,6 @@
+from os import system
+system("cls")
+
 # entrada
 number = float(input("Introduzca un número: "))
 
@@ -10,24 +13,18 @@ negative = 0
 while number != 0:
 
 
-# cajón decimal
+# cajón decimal/entero
     rational = number - int(number)
     if rational != 0:
         decimal += 1
-
-# cajón entero
-    rational = number - int(number)
-    if rational == 0:
+    else:
         integer += 1
 
-# cajón positivo
+# cajón positivo/negativo
     z_plus_0 = number
     if z_plus_0 > 0:
         positive += 1
-
-# cajón negativo
-    z_minus_0 = number
-    if z_minus_0 < 0:
+    else:
         negative += 1
 
     number = float(input("Introduzca un número: "))

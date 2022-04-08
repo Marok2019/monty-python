@@ -1,3 +1,6 @@
+from os import system
+system("cls")
+
 # calcular la división de dos números enteros positivos
 # dados por el usuario y el resto
 

@@ -1,3 +1,6 @@
+from os import system
+system("cls")
+
 # entrada
 num1 = int(input("Introduzca el primer número: "))
 num2 = int(input("Introduzca el segundo número: "))
