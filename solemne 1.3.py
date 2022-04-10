@@ -4,8 +4,6 @@ system("cls")
 # entrada
 print("Bienvenido a Mamá Juana")
 pizza_quantity = int(input("Cuántas pizzas desea ordenar: "))
-v_ingredientes = ['tomato', 'pineapple', 'pepperoni', 'olives']
-v_ingPrecios = [300, 500, 400, 600]
 
 # proceso
 if pizza_quantity == 0:
